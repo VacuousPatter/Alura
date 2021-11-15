@@ -9,3 +9,34 @@
 .cabecalhoPrincipal .cabecalhoPrincipal-nav {
   display: flex;
 }
+
+/* Aula 2 */
+.rodapePrincipal-patrocinadores .container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.rodapePrincipal-patrocinadores
+  .container
+  .rodapePrincipal-patrocinadores-list {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 70%;
+  margin-right: 5%;
+}
+
+.rodapePrincipal-patrocinadores .container .rodapePrincipal-contatoForm {
+  width: 25%;
+}
+
+.rodapePrincipal-contatoForm-fieldset {
+  display: flex;
+}
+
+.rodapePrincipal-navMap-list {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  height: 250px;
+}
