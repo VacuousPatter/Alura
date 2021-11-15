@@ -40,3 +40,14 @@
   flex-wrap: wrap;
   height: 250px;
 }
+
+/* Aula 3 */
+.conteudoPrincipal-cursos {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+
+.conteudoPrincipal-cursos-link {
+  width: 20%;
+}
