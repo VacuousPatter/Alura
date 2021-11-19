@@ -2,7 +2,7 @@
   background-color: var(--azul-claro);
 
   padding-top: 2.5rem;
-  padding-top: 2rem;
+  padding-bottom: 2rem;
 }
 
 .destaques__titulo {
@@ -40,6 +40,7 @@
 }
 
 .destaques__botao {
+  display: block;
   color: var(--vermelho-forte);
   border-color: var(--vermelho-forte);
   margin: 0 auto;
